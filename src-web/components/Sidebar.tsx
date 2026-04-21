@@ -312,7 +312,7 @@ function Sidebar({ className }: { className?: string }) {
           await Promise.all(
             items
               .filter((i) => i.model === "http_request")
-              .map((i) => sendAnyHttpRequest.mutate(i.id)),
+              .map((i) => sendAnyHttpRequest.mutateAsync(i.id)),
           );
         },
       },
