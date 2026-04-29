@@ -98,9 +98,9 @@
     "postcss": "^8.5.6",
     "postcss-nesting": "^13.0.2",
     "tailwindcss": "^3.4.17",
-    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.20-alpha.4",
     "vite-plugin-static-copy": "^3.3.0",
     "vite-plugin-svgr": "^4.5.0",
-    "vite-plus": "latest"
+    "vite-plus": "0.1.20-alpha.4"
   }
 }
