@@ -120,14 +120,14 @@
     "nodejs-file-downloader": "^4.13.0",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.8.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.20",
-    "vite-plus": "^0.1.20",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@^0.1.20"
+    "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1633",
+    "vite-plus": "https://pkg.pr.new/voidzero-dev/vite-plus@1633",
+    "vitest": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1633"
   },
   "overrides": {
     "js-yaml": "^4.1.1",
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.20",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@^0.1.20"
+    "vite": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-core@1633",
+    "vitest": "https://pkg.pr.new/voidzero-dev/vite-plus/@voidzero-dev/vite-plus-test@1633"
   },
   "packageManager": "npm@11.11.1"
 }
