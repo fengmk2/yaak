@@ -3,7 +3,7 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import react from "@vitejs/plugin-react";
 import { createRequire } from "node:module";
 import path from "node:path";
-import { defineConfig, normalizePath } from "vite-plus";
+import { defineConfig, normalizePath, lazyPlugins } from "vite-plus";
 import { viteStaticCopy } from "vite-plugin-static-copy";
 import svgr from "vite-plugin-svgr";
 import topLevelAwait from "vite-plugin-top-level-await";
@@ -20,7 +20,7 @@ const standardFontsDir = normalizePath(
 // https://vitejs.dev/config/
 export default defineConfig(async () => {
   return {
-    plugins: [
+    plugins: lazyPlugins(() => [
       wasm(),
       tanstackRouter({
         target: "react",
@@ -37,7 +37,7 @@ export default defineConfig(async () => {
           { src: standardFontsDir, dest: "" },
         ],
       }),
-    ],
+    ]),
     build: {
       sourcemap: true,
       outDir: "../../dist/apps/yaak-client",
