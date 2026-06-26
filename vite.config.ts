@@ -1,6 +1,14 @@
 import { defineConfig } from "vite-plus";
 
 export default defineConfig({
+  fmt: {
+    printWidth: 100,
+    ignorePatterns: [
+      "**/bindings/**",
+      "crates/yaak-templates/pkg/**",
+      "apps/yaak-client/routeTree.gen.ts",
+    ],
+  },
   staged: {
     "*": "vp check --fix",
   },

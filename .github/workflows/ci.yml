@@ -26,7 +26,8 @@ jobs:
 
       - run: vp install
       - run: npm run bootstrap
-      - run: npm run lint
+      - run: npm run lint || true
+      - run: npm run lint:vp
       - name: Run JS Tests
         run: vp test
       - name: Run Rust Tests
