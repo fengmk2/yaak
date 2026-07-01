@@ -102,11 +102,11 @@
     "postcss-nesting": "^13.0.2",
     "rollup": "^4.60.3",
     "tailwindcss": "^3.4.17",
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.20",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.452cbf6cf0b110855991ff512ee4d5122fa59b32",
     "vite-plugin-static-copy": "^3.3.0",
     "vite-plugin-svgr": "^4.5.0",
     "vite-plugin-top-level-await": "^1.5.0",
     "vite-plugin-wasm": "^3.5.0",
-    "vite-plus": "^0.1.20"
+    "vite-plus": "0.0.0-commit.452cbf6cf0b110855991ff512ee4d5122fa59b32"
   }
 }
